@@ -6,7 +6,7 @@ Author: Maxime Zanella
 Inspired from https://github.com/Mephisto405/Learning-Loss-for-Active-Learning
 """
 import numpy as np
-from fine_tuned_resnet import FineTunedResnet, ClassicResNet
+from model import ClassicResNet
 from learning_loss_net import Learning_Loss_Net, LossPredLoss
 import torch
 import torch.nn as nn
