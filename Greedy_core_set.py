@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-
-@author: maxim
+Author: Maxime Zanella
 """
 def GreedyKCenter(model,unlabeled_loader,train_loader_no_transform,k,device):
   G = []
