@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Aug 22 22:12:39 2021
-
-@author: maxim
+Author: Maxime Zanella
 """
 def query_ensembles_var(models,unlabeled_loader,budget,device):
     var_ratio_measure = np.zeros((len(unlabeled_loader)*models[0].params['batch_size'],))
