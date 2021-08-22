@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 
-@author: maxim
+Author: Maxime Zanella
 """
 def query_uncertainty(model,unlabeled_loader,budget,device,measure="entropy"):
     model.eval()
