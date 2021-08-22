@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@author: maxim
+Author: Maxime Zanella
 """
 
 import torch
